@@ -1,1 +1,31 @@
 
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
+
+/* color variables */
+:root {
+  --primaryGrey: rgba(61,79,97, 0.8);
+  --primaryLight: rgba(61,79,97, 0.4);
+
+  --primary: rgb(93,168,221);
+  --primaryDark: rgb(30, 112, 172);
+
+  --mainWhite: rgb(255,255,255);
+  --mainGrey: rgb(231,233,236);
+  --mainBlack: rgb(50,50,50);
+
+  --error:rgb(255,0,0);
+  --errorLight:rgb(255,243,243)
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--mainBlack);
+  color: var(--primaryColor);
+  font-family: 'Tinos', serif;
+}
