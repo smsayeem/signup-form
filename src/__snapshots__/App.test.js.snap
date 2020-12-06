@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App and other components existence check should render the <App /> Component correctly 1`] = `
+<App>
+  <styled.div>
+    <div
+      className="sc-fFubgz gzKReG"
+    >
+      <HelmetWrapper
+        defer={true}
+        encodeSpecialCharacters={true}
+      >
+        <SideEffect(NullComponent)
+          defer={true}
+          encodeSpecialCharacters={true}
+          meta={
+            Array [
+              Object {
+                "content": "Milkchoc form app is a demo form, for SEO purpose",
+                "name": "description",
+              },
+            ]
+          }
+          title="Milkchoc form"
+          titleAttributes={Object {}}
+        >
+          <NullComponent
+            defer={true}
+            encodeSpecialCharacters={true}
+            meta={
+              Array [
+                Object {
+                  "content": "Milkchoc form app is a demo form, for SEO purpose",
+                  "name": "description",
+                },
+              ]
+            }
+            title="Milkchoc form"
+            titleAttributes={Object {}}
+          />
+        </SideEffect(NullComponent)>
+      </HelmetWrapper>
+      <Form
+        handleChange={[Function]}
+        handleSubmit={[Function]}
+        info={
+          Object {
+            "animal": Array [],
+            "color": "",
+            "email": "",
+            "password": "",
+            "tigertype": "",
+          }
+        }
+      >
+        <styled.div>
+          <div
+            className="sc-hKgILt kThEky"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <TextBlock
+                as="h1"
+                text="Fill out this awesome form"
+              >
+                <styled.h1>
+                  <h1
+                    className="sc-bdfBwQ kEmZII"
+                  >
+                    Fill out this awesome form
+                  </h1>
+                </styled.h1>
+              </TextBlock>
+              <styled.section>
+                <section
+                  className="sc-eCssSg ggsmVZ"
+                >
+                  <TextBlock
+                    as="h2"
+                    text="Your details"
+                  >
+                    <styled.h2>
+                      <h2
+                        className="sc-gsTCUz drecMv"
+                      >
+                        Your details
+                      </h2>
+                    </styled.h2>
+                  </TextBlock>
+                  <styled.div>
+                    <div
+                      className="sc-crrsfI lnWkZO"
+                    >
+                      <styled.label
+                        htmlFor="email"
+                      >
+                        <label
+                          className="sc-jSgupP boUXXQ"
+                          htmlFor="email"
+                        >
+                          Email
+                        </label>
+                      </styled.label>
+                      <styled.div>
+                        <div
+                          className="sc-gKsewC jHGHpE"
+                        >
+                          <styled.input
+                            className="input-box"
+                            id="email"
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="Enter your email address"
+                            type="email"
+                            value=""
+                          >
+                            <input
+                              className="sc-iBPRYJ hRCnUG input-box"
+                              id="email"
+                              name="email"
+                              onChange={[Function]}
+                              placeholder="Enter your email address"
+                              type="email"
+                              value=""
+                            />
+                          </styled.input>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-crrsfI lnWkZO"
+                    >
+                      <styled.label
+                        htmlFor="password"
+                      >
+                        <label
+                          className="sc-jSgupP boUXXQ"
+                          htmlFor="password"
+                        >
+                          Password
+                        </label>
+                      </styled.label>
+                      <styled.div>
+                        <div
+                          className="sc-gKsewC jHGHpE"
+                        >
+                          <styled.input
+                            className="input-box"
+                            id="password"
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="Choose your password"
+                            type="password"
+                            value=""
+                          >
+                            <input
+                              className="sc-iBPRYJ hRCnUG input-box"
+                              id="password"
+                              name="password"
+                              onChange={[Function]}
+                              placeholder="Choose your password"
+                              type="password"
+                              value=""
+                            />
+                          </styled.input>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-kstrdz dIMTXz"
+                    />
+                  </styled.div>
+                  <TextBlock
+                    as="h2"
+                    text="Your animal"
+                  >
+                    <styled.h2>
+                      <h2
+                        className="sc-gsTCUz drecMv"
+                      >
+                        Your animal
+                      </h2>
+                    </styled.h2>
+                  </TextBlock>
+                  <styled.div>
+                    <div
+                      className="sc-crrsfI lnWkZO"
+                    >
+                      <styled.label
+                        htmlFor="color"
+                      >
+                        <label
+                          className="sc-jSgupP boUXXQ"
+                          htmlFor="color"
+                        >
+                          color
+                        </label>
+                      </styled.label>
+                      <styled.div>
+                        <div
+                          className="sc-gKsewC jHGHpE"
+                        >
+                          <styled.select
+                            className="input-box"
+                            id="color"
+                            name="color"
+                            onChange={[Function]}
+                          >
+                            <select
+                              className="sc-fubCfw daNcGr input-box"
+                              id="color"
+                              name="color"
+                              onChange={[Function]}
+                            >
+                              <option
+                                value=""
+                              >
+                                Choose your color
+                              </option>
+                              <option
+                                value="blue"
+                              >
+                                Blue
+                              </option>
+                              <option
+                                value="green"
+                              >
+                                Green
+                              </option>
+                              <option
+                                value="red"
+                              >
+                                Red
+                              </option>
+                              <option
+                                value="black"
+                              >
+                                Black
+                              </option>
+                              <option
+                                value="brown"
+                              >
+                                Brown
+                              </option>
+                            </select>
+                          </styled.select>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-crrsfI lnWkZO"
+                    >
+                      <styled.label>
+                        <label
+                          className="sc-jSgupP boUXXQ"
+                        >
+                          Animal
+                        </label>
+                      </styled.label>
+                      <styled.div>
+                        <div
+                          className="sc-pFZIQ gEyQsu"
+                        >
+                          <div>
+                            <styled.input
+                              className="chkbox-input"
+                              name="animal"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="Bear"
+                            >
+                              <input
+                                className="sc-kEjbxe uUWTw chkbox-input"
+                                name="animal"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="Bear"
+                              />
+                            </styled.input>
+                            <styled.label>
+                              <label
+                                className="sc-iqHYGH dhtXYU"
+                              >
+                                Bear
+                              </label>
+                            </styled.label>
+                          </div>
+                          <div>
+                            <styled.input
+                              className="chkbox-input"
+                              name="animal"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="tiger"
+                            >
+                              <input
+                                className="sc-kEjbxe uUWTw chkbox-input"
+                                name="animal"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="tiger"
+                              />
+                            </styled.input>
+                            <styled.label>
+                              <label
+                                className="sc-iqHYGH dhtXYU"
+                              >
+                                Tiger
+                              </label>
+                            </styled.label>
+                          </div>
+                          <div>
+                            <styled.input
+                              className="chkbox-input"
+                              name="animal"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="Snake"
+                            >
+                              <input
+                                className="sc-kEjbxe uUWTw chkbox-input"
+                                name="animal"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="Snake"
+                              />
+                            </styled.input>
+                            <styled.label>
+                              <label
+                                className="sc-iqHYGH dhtXYU"
+                              >
+                                Snake
+                              </label>
+                            </styled.label>
+                          </div>
+                          <div>
+                            <styled.input
+                              className="chkbox-input"
+                              name="animal"
+                              onChange={[Function]}
+                              type="checkbox"
+                              value="Donkey"
+                            >
+                              <input
+                                className="sc-kEjbxe uUWTw chkbox-input"
+                                name="animal"
+                                onChange={[Function]}
+                                type="checkbox"
+                                value="Donkey"
+                              />
+                            </styled.input>
+                            <styled.label>
+                              <label
+                                className="sc-iqHYGH dhtXYU"
+                              >
+                                Donkey
+                              </label>
+                            </styled.label>
+                          </div>
+                        </div>
+                      </styled.div>
+                    </div>
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-crrsfI lnWkZO"
+                    />
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-kstrdz dIMTXz"
+                    />
+                  </styled.div>
+                  <styled.div>
+                    <div
+                      className="sc-dQppl iuotMY"
+                    >
+                      <styled.button
+                        name="submit"
+                        type="submit"
+                      >
+                        <button
+                          className="sc-bqyKva iIMsjd"
+                          name="submit"
+                          type="submit"
+                        >
+                          Create account
+                        </button>
+                      </styled.button>
+                    </div>
+                  </styled.div>
+                </section>
+              </styled.section>
+            </form>
+          </div>
+        </styled.div>
+      </Form>
+    </div>
+  </styled.div>
+</App>
+`;

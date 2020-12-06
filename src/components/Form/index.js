@@ -193,7 +193,7 @@ const StyledInput = styled.input`
   &[type='email']:focus,
   &[type='password']:focus{
     outline: none;
-    border-color: var(--primaryBtn);
+    border-color: var(--primary);
     box-shadow: 0 0 6px rgba(48, 140, 255, 0.25);
   }
   &::placeholder{
