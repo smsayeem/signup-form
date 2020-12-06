@@ -1,10 +1,10 @@
 # Milkchoc Form
 ### Its a signup form where user enter their deatils with following acceptance criteria
--Email must be a valid email address.
--Password must be longer than 8 characters.
--Color must be selected.
--At least two Animals must be chosen.
--If Tiger is one of the chosen Animals then Type of tiger is required to be a non-empty string.
+-Email must be a valid email address.<br />
+-Password must be longer than 8 characters.<br />
+-Color must be selected.<br />
+-At least two Animals must be chosen.<br />
+-If Tiger is one of the chosen Animals then Type of tiger is required to be a non-empty string.<br />
 ## Local Development
 
 To run the app in the local development environment run the following command
@@ -28,7 +28,7 @@ And the app is ready to be deployed!<br />
 
 
 ## Folder Structure
-- Every component is placed in a folder with the name of the component. The filename for the component is index.js and relevant css file style.css
+- Every component is placed in a folder with the name of the component. The filename for the component is index.js
 
 ```
 |-- src
