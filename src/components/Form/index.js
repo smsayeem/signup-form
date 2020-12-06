@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import validateInfo from './components/FormValidation/validateInfo';
 import styled, {css} from 'styled-components';
 import TextBlock from '../TextBlock';
@@ -110,7 +111,7 @@ function Form({handleChange, info, handleSubmit} ) {
           </FormGroup>
           <FormGroup error={err.tigertype}>
             {info.animal.map(item => item === 'tiger' ?
-            <>
+            <span key={item}>
               <StyledLabel htmlFor="tigertype">Tiger type</StyledLabel>
               <InputWrapper>
                 <StyledInput 
@@ -124,7 +125,7 @@ function Form({handleChange, info, handleSubmit} ) {
                 />
                 {err.tigertype && <TextBlock as='p' text={err.tigertype} />}
               </InputWrapper>
-            </>
+            </span>
             : 
             null
             )}
@@ -291,5 +292,29 @@ const Divider = styled.div`
   border-bottom: 1px solid var(--mainGrey);
   margin: 1rem 0;
 `;
+
+Form.propTypes = {
+  handleChange: PropTypes.func, 
+  handleSubmit: PropTypes.func, 
+  info: PropTypes.shape({
+    email: PropTypes.string,
+    password: PropTypes.string,
+    color: PropTypes.string,
+    animal: PropTypes.array,
+    tigertype:PropTypes.string
+  }),
+};
+
+Form.defaultProps = {
+  handleChange: ()=>{}, 
+  handleSubmit: ()=>{}, 
+  info: {
+    email: '',
+    password: '',
+    color: '',
+    animal: [],
+    tigertype:''
+  }
+};
 
 export default Form

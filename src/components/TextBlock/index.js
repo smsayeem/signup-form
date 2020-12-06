@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 function TextBlock({as, text}) {
   switch (as) {
@@ -36,5 +37,14 @@ const H2 = styled.h2`
     }
 `;
 const P = styled.p``;
+
+TextBlock.propTypes = {
+  as: PropTypes.string, 
+  text: PropTypes.string.isRequired
+};
+
+TextBlock.defaultProps = {
+  as: 'p'
+};
 
 export default TextBlock
