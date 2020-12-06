@@ -47,3 +47,4 @@ And the app is ready to be deployed!<br />
     |-- App.test.js
     |-- Index.js
 ```
+- published app: https://modest-golick-3e5106.netlify.app/
