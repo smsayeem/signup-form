@@ -111,7 +111,7 @@ function Form({handleChange, info, handleSubmit} ) {
           </FormGroup>
           <FormGroup error={err.tigertype}>
             {info.animal.map(item => item === 'tiger' ?
-            <span key={item}>
+            <React.Fragment key={item}>
               <StyledLabel htmlFor="tigertype">Tiger type</StyledLabel>
               <InputWrapper>
                 <StyledInput 
@@ -125,7 +125,7 @@ function Form({handleChange, info, handleSubmit} ) {
                 />
                 {err.tigertype && <TextBlock as='p' text={err.tigertype} />}
               </InputWrapper>
-            </span>
+            </React.Fragment>
             : 
             null
             )}
