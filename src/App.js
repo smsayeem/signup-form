@@ -36,7 +36,6 @@ function App() {
 
     }
   
-    // No functionality added for the submit button.
     const handleSubmit = (e) => {
       console.log('state success=',info);
       console.log('congratulation !!! Form submitted successfully.');

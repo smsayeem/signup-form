@@ -5,7 +5,7 @@ export default function FormSuccess() {
   return (
     <StyledContainer>
       <h1>We have received your request!</h1>
-      <StyledButton href='/' className='go-back'>Go back</StyledButton>
+      <StyledButton href='/'>Go back</StyledButton>
     </StyledContainer>
   )
 }

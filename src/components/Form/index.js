@@ -168,7 +168,7 @@ const StyledLabel = styled.label`
 
   @media screen and (min-width: 769px){
     width: 30%;
-    }
+  }
 `;
 
 const InputWrapper = styled.div`
@@ -176,7 +176,7 @@ const InputWrapper = styled.div`
 
   @media screen and (min-width: 769px){
     width: 70%;
-    }
+  }
 `;
 
 const StyledInput = styled.input`
@@ -196,6 +196,7 @@ const StyledInput = styled.input`
     border-color: var(--primary);
     box-shadow: 0 0 6px rgba(48, 140, 255, 0.25);
   }
+
   &::placeholder{
     color: var(--primaryLight);
     font-size: .9rem;
@@ -223,17 +224,16 @@ const CheckboxWrapper = styled.div`
   flex-wrap: wrap;
 `;
 
-const CheckboxItem = styled.div`
-
-`;
 
 const StyledCheckbox = styled.input`
   margin: 0 8px;
 `;
+
 const CheckboxLabel = styled.label`
   padding: 10px 0;
   color: var(--primaryGrey);
 `;
+
 const FormGroup = styled.div`
   display: flex;
   align-items: center;
@@ -249,6 +249,7 @@ const FormGroup = styled.div`
     }
   `}
 `;
+
 const ButtonWrapper = styled.div`
   padding: 1rem 0;
   width: 100%;
@@ -285,7 +286,7 @@ const StyledButton = styled.button`
 
   @media screen and (min-width: 769px){
     font-size: 1.1rem;
-    }
+  }
 `;
 
 const Divider = styled.div`
