@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Form from './components/Form';
+import { Helmet } from 'react-helmet';
 import FormSuccess from './components/FormSuccess';
 import './App.css';
 import styled from 'styled-components';
@@ -44,6 +45,10 @@ function App() {
 
   return (
     <StyledApp>
+      <Helmet>
+        <title>Milkchoc form</title>
+        <meta name = "description" content = "Milkchoc form app is a demo form, for SEO purpose" />
+      </Helmet>
       {!submit ? 
         (<Form 
           handleChange={handleChange}
