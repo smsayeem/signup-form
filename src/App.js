@@ -16,13 +16,29 @@ function App() {
     const [submit, setSubmit] = useState(false);
 
     const handleChange = (e) => {
+      const {name, value} = e.target;
+      if(e.target.type === 'checkbox'){
 
+        if(e.target.checked){
+          setInfo({...info, [name]:[...info.animal, value]});
+        }else{
+          if(value === 'tiger'){
+            info.tigertype = '';
+          }
+          const newAnimal = info.animal.filter(item=> item !== value);
+          setInfo({...info, [name]:newAnimal});
+        }
+
+      }else{
+        setInfo({ ...info, [name]:value });
+      }
 
     }
   
     // No functionality added for the submit button.
     const handleSubmit = (e) => {
       console.log('state success=',info);
+      console.log('congratulation !!! Form submitted successfully.');
       setSubmit(true);
     }
 
