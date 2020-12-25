@@ -1,4 +1,4 @@
-# Milkchoc Form
+# Signup Form
 ### Its a signup form where user enter their deatils with following acceptance criteria
 -Email must be a valid email address.<br />
 -Password must be longer than 8 characters.<br />
